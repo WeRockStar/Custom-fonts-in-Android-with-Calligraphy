@@ -1,37 +1,76 @@
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools=" http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:ignore="MissingPrefix"
+    android:orientation="vertical"
     android:background="#AEE8E9">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:gravity="center_horizontal"
-        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
         android:textColor="#000"
-        android:text="Enter two numbers"
+        android:text="Text Bold"
          />
 
-    <EditText
-        android:id="@+id/editText1"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:inputType="numberDecimal">
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#000"
+        fontPath="fonts/Roboto-Medium.ttf"
+        android:text="Text Medium"
+        />
 
-        <requestFocus />
-
-    </EditText>
-
-
-    <EditText
-        android:id="@+id/editText2"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:ems="10"
-        android:inputType="numberDecimal" />
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#000"
+        fontPath="fonts/Roboto-Regular.ttf"
+        android:text="Text Regular"
+        />
 
-</TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#000"
+        fontPath="fonts/Roboto-Thin.ttf"
+        android:text="Text Thin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#000"
+        fontPath="fonts/Roboto-Light.ttf"
+        android:text="Text Light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#000"
+        fontPath="fonts/Roboto-ThinItalic.ttf"
+        android:text="Text ThinItalic"
+        />
+
+</LinearLayout>
