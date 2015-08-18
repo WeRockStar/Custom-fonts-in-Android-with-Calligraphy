@@ -2,4 +2,7 @@
 <resources>
     <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
     </style>
+    <style name="TextAppearance.FontPath" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Roboto-Regular.ttf</item>
+    </style>
 </resources>
